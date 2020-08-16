@@ -2,7 +2,7 @@ exports.handler = async (event) => {
     // TODO implement
     const response = {
         statusCode: 200,
-        body: JSON.stringify('Hello from KOR!'),
+        ody: JSON.stringify('Hello from newBranch!'),
     };
     return response;
 };
