@@ -2,7 +2,7 @@ exports.handler = async (event) => {
     // TODO implement
     const response = {
         statusCode: 200,
-        body: JSON.stringify(event),
+        body: JSON.stringify(event.email),
     };
     return response;
 };
